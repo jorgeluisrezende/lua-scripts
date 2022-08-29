@@ -1,0 +1,5 @@
+local io = require('io')
+arquivo = io.open("io.txt", "a+")
+arquivo:write("\nnova linha\n")
+arquivo:flush()
+arquivo:close()
